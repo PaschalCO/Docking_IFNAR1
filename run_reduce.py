@@ -25,7 +25,7 @@ for peptide_file in peptide_files:
         os.makedirs(peptide_output_dir)
     
     # Definir archivo de salida
-    output_file = os.path.join(peptide_output_dir, "{}_H.pdb".format(peptide_name))
+    output_file = os.path.join(peptide_output_dir, "{}_pepH.pdb".format(peptide_name))
     
     # Ejecutar reduce
     cmd = [reduce_exe, "-FLIP", os.path.join(input_dir, peptide_file)]
