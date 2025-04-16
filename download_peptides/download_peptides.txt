@@ -1,0 +1,3 @@
+curl -O http://huanglab.phys.hust.edu.cn/pepbdb/db/download/pepbdb-20200318.tgz
+
+tar -xvzf pepbdb-20200318.tgz
