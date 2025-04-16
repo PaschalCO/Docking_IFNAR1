@@ -1,0 +1,9 @@
+fetch 3S98, async=0 # Descarga del modelo 3S98
+
+remove solvent # Eliminar moléculas de agua
+
+remove organic # Eliminar compuesto orgánico
+
+save 3s98_clean.pdb # Guardar estructura proteica limpia
+
+show surface # Representación de la superficie molecular según la naturaleza de los aminoácidos expuestos
