@@ -1,0 +1,1 @@
+blastp -query 4qxg_cdr.fasta -subject pepbdb.fasta -out blastp_results.txt -evalue 150 -word_size 2 -outfmt 6

@@ -5,7 +5,7 @@ import subprocess
 base_dir = "reduced_peptides"
 
 # Archivo receptor (ya esta en el directorio actual)
-receptor_file = "3s98_without_K_H.pdbqt"
+receptor_file = "3s98_clean_H.pdbqt"
 
 # Directorio donde se encuentra 'runAGFR.py'
 run_agfr_path = "/Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py"
