@@ -4,7 +4,7 @@ import subprocess
 # Directorio base donde estan las carpetas de los peptidos
 base_dir = "reduced_peptides"
 
-# Ruta al ejecutable de runADCP.py
+# Ruta al script runADCP de ADFRsuite
 run_adcp_path = "/Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADCP/runADCP.py"
 
 # Verifica si el directorio base existe

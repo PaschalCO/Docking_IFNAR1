@@ -1,24 +1,24 @@
 import os
 import subprocess
 
-# Directorio donde estan las carpetas de los peptidos (ruta absoluta o relativa correcta)
+# Directorio donde estan las carpetas de los peptidos reducidos
 base_dir = "reduced_peptides"
 
-# Recorre todas las carpetas dentro de reduced_peptides
+# Recorrer todas las carpetas dentro de reduced_peptides
 for peptide_folder in os.listdir(base_dir):
     peptide_path = os.path.join(base_dir, peptide_folder)
     
-    # Verifica si es un directorio
+    # Verificar si es un directorio
     if os.path.isdir(peptide_path):
         
-        # Busca archivos que terminan en '_pepH.pdb'
+        # Buscar archivos que terminan en '_pepH.pdb'
         for file in os.listdir(peptide_path):
             if file.endswith("_pepH.pdb"):
                 pdb_file = os.path.join(peptide_path, file)
 
-                # Verifica si el archivo realmente existe
+                # Verificar si el archivo realmente existe
                 if os.path.exists(pdb_file):
-                    # Ejecuta prepare_ligand dentro de la ruta del peptido
+                    # Ejecutar prepare_ligand dentro de la ruta del peptido
                     command = ["prepare_ligand", "-l", file]
                     print("Ejecutando: {} en {}".format(' '.join(command), peptide_path))
                     try:

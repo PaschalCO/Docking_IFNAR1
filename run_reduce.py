@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-# Ruta de la carpeta que contiene los peptidos
+# Ruta de la carpeta que contiene los peptidos seleccionados
 input_dir = "selected_peptides"
 output_dir = "reduced_peptides"
 
