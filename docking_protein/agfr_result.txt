@@ -1,0 +1,832 @@
+paschalogbogu@Paschals-MacBook-Pro docking % python run_agfr.py
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 3wim_B_pepH.pdbqt -asv 1.1 -o 3wim_B
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
+Date Sun Apr 20 23:57:53 2025
+
+loading receptor: 3s98_clean_H.pdbqt
+loading ligand: 3wim_B_pepH.pdbqt
+
+set box using ligand
+    Box center:    -3.796   -31.940   -40.524
+    Box length:    21.750    30.000    21.750
+    Box size  :        58        80        58
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+Scanning at: -0.36 -0.792 -0.6
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -66.78   116    3.88    -0.58     0.813     19.73 
+    2   -35.74    64    2.97    -0.56     0.719     11.13 
+Scanning at: -0.315 -0.693 -0.525
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -91.21   157    4.26    -0.58     0.795     23.32 
+    2   -55.35   101    3.47    -0.55     0.709     14.66 
+    3   -30.30    57    2.57    -0.53     0.621      8.53 
+    4   -24.85    52    2.36    -0.48     0.594      7.78 
+Scanning at: -0.27 -0.594 -0.45
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -218.34   437    5.92    -0.50     0.764     43.05 
+    2  -132.09   244    5.03    -0.54     0.747     27.08 
+    3   -39.19    87    2.86    -0.45     0.602     11.02 
+    4   -44.36    93    2.89    -0.48     0.530      9.03 
+    5   -38.94    77    2.96    -0.51     0.587      8.95 
+Scanning at: -0.225 -0.495 -0.375
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -729.35  1546   10.63    -0.47     0.673     65.83 
+    2   -27.30    62    2.90    -0.44     0.487      5.07 
+    found 6 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -158.94   363    5.92     -0.44      0.83      42.09
+        2    -84.00   183    4.14     -0.46      0.82      29.78
+        3    -67.16   198    3.87     -0.34      0.73      27.04
+        4    -56.56   170    3.69     -0.33      0.76      26.49
+        5    -52.95   138    3.70     -0.38      0.77      21.98
+        6    -42.59   143    3.95     -0.30      0.71      18.34
+    merging clusters ...
+done. got 169 fill Points, in 8.84 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(-3.796 -31.940 -40.524) size=(21.750 30.000 21.750) dims=(58 80 58) ...
+    147 points inside the box
+
+    maps computed in 2.39 (sec)
+Adding gradient to maps ...
+processing maps ... done 50.1562111378
+writing maps ... done 8.90394592285
+done adding gradient to maps 59.63 (sec)
+making target file 3wim_B.trg ...done.
+    done. 67.98 (sec)
+
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 3zfw_X_pepH.pdbqt -asv 1.1 -o 3zfw_X
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
+Date Sun Apr 20 23:59:12 2025
+
+loading receptor: 3s98_clean_H.pdbqt
+loading ligand: 3zfw_X_pepH.pdbqt
+
+set box using ligand
+    Box center:   -19.155   -25.675   -38.100
+    Box length:    35.250    18.750    21.750
+    Box size  :        94        50        58
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+Scanning at: -0.36 -0.792 -0.6
+0 #: 0
+Scanning at: -0.315 -0.693 -0.525
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -44.42    83    3.26    -0.54     0.716     13.04 
+Scanning at: -0.27 -0.594 -0.45
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -89.16   167    4.22    -0.53     0.842     28.07 
+    2   -78.63   153    3.98    -0.51     0.703     18.99 
+    3   -33.72    64    2.64    -0.53     0.639      9.88 
+    4   -30.00    65    2.65    -0.46     0.535      7.05 
+Scanning at: -0.225 -0.495 -0.375
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -287.26   589    7.29    -0.49     0.705     40.19 
+    2  -111.64   241    5.58    -0.46     0.556     13.37 
+    3   -46.40    89    2.80    -0.52     0.644     13.18 
+    4   -39.14    86    3.07    -0.46     0.569      9.09 
+    found 5 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -113.94   232    4.41     -0.49      0.87      39.99
+        2   -146.02   468    6.32     -0.31      0.72      38.87
+        3   -100.61   231    4.41     -0.44      0.79      33.02
+        4    -54.49   168    3.85     -0.32      0.75      24.72
+        5    -48.96   103    3.16     -0.48      0.80      20.65
+    merging clusters ...
+done. got 160 fill Points, in 10.16 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(-19.155 -25.675 -38.100) size=(35.250 18.750 21.750) dims=(94 50 58) ...
+    148 points inside the box
+
+    maps computed in 4.73 (sec)
+Adding gradient to maps ...
+processing maps ... done 81.0199639797
+writing maps ... done 9.81942987442
+done adding gradient to maps 91.93 (sec)
+making target file 3zfw_X.trg ...done.
+    done. 101.94 (sec)
+
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 3bu6_B_pepH.pdbqt -asv 1.1 -o 3bu6_B
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
+Date Mon Apr 21 00:01:07 2025
+
+loading receptor: 3s98_clean_H.pdbqt
+loading ligand: 3bu6_B_pepH.pdbqt
+
+set box using ligand
+    Box center:     0.441   -33.338   -45.851
+    Box length:    51.750    43.500    41.250
+    Box size  :       138       116       110
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+Scanning at: -0.36 -0.792 -0.6
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -70.17   118    3.91    -0.59     0.806     19.60 
+Scanning at: -0.315 -0.693 -0.525
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -106.49   181    4.42    -0.59     0.827     27.96 
+    2   -29.68    60    2.37    -0.49     0.802     16.32 
+    3   -50.30    93    3.39    -0.54     0.701     13.46 
+    4   -35.97    63    2.40    -0.57     0.685     12.33 
+    5   -28.13    63    2.67    -0.45     0.679     10.89 
+    6   -32.35    58    2.59    -0.56     0.620      8.62 
+Scanning at: -0.27 -0.594 -0.45
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -185.10   353    5.29    -0.52     0.769     39.47 
+    2  -245.63   453    9.54    -0.54     0.725     24.94 
+    3   -51.89    91    2.85    -0.57     0.789     19.86 
+    4   -84.23   190    4.80    -0.44     0.649     16.69 
+    5   -69.60   132    4.24    -0.53     0.679     14.38 
+    6   -57.81   111    3.26    -0.52     0.621     13.12 
+    7   -28.47    51    2.25    -0.56     0.755     12.94 
+    8   -31.72    60    2.38    -0.53     0.653     10.75 
+    9   -77.65   143    4.70    -0.54     0.584     10.38 
+   10   -26.46    61    2.38    -0.43     0.612      9.60 
+Scanning at: -0.225 -0.495 -0.375
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1 -1279.60  2702   13.95    -0.47     0.654     82.76 
+    2   -99.04   226    4.37    -0.44     0.548     15.53 
+    3   -49.37   107    2.89    -0.46     0.648     15.51 
+    4  -103.85   214    4.47    -0.49     0.551     14.50 
+    5   -33.95    58    2.35    -0.59     0.699     12.07 
+    6   -75.50   162    4.75    -0.47     0.579     11.41 
+    7   -59.04   126    3.87    -0.47     0.585     11.14 
+    8   -40.32    92    2.83    -0.44     0.563     10.29 
+    9   -40.32    88    3.35    -0.46     0.483      6.13 
+   10   -33.60    79    3.05    -0.43     0.483      6.05 
+    found 17 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -230.41   515    6.06     -0.45      0.83      57.91
+        2   -126.88   408    5.23     -0.31      0.72      40.90
+        3   -128.61   250    4.98     -0.51      0.87      38.04
+        4   -126.61   382    5.66     -0.33      0.74      37.32
+        5   -113.55   327    5.57     -0.35      0.77      34.52
+        6    -98.83   324    5.48     -0.31      0.75      33.03
+        7    -62.36   192    3.65     -0.32      0.79      32.43
+        8    -78.06   235    4.64     -0.33      0.77      30.31
+        9    -86.52   216    4.80     -0.40      0.80      29.02
+       10    -55.28   185    3.89     -0.30      0.77      28.41
+       11    -68.45   136    3.83     -0.50      0.88      27.50
+       12   -107.33   279    5.91     -0.38      0.76      27.27
+       13    -40.06   123    3.24     -0.33      0.80      23.99
+       14    -47.46   177    3.87     -0.27      0.72      23.89
+       15    -45.58   122    3.23     -0.37      0.79      23.59
+       16    -60.47   201    4.47     -0.30      0.72      23.51
+       17    -43.01   107    3.08     -0.40      0.82      23.29
+    merging clusters ...
+done. got 618 fill Points, in 40.26 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(0.441 -33.338 -45.851) size=(51.750 43.500 41.250) dims=(138 116 110) ...
+    590 points inside the box
+
+    maps computed in 20.96 (sec)
+Adding gradient to maps ...
+processing maps ... done 501.368376017
+writing maps ... done 29.2487959862
+done adding gradient to maps 536.82 (sec)
+making target file 3bu6_B.trg ...done.
+    done. 570.68 (sec)
+
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 3q6s_F_pepH.pdbqt -asv 1.1 -o 3q6s_F
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
+Date Mon Apr 21 00:11:20 2025
+
+loading receptor: 3s98_clean_H.pdbqt
+loading ligand: 3q6s_F_pepH.pdbqt
+
+set box using ligand
+    Box center:     5.591   -32.053   -38.041
+    Box length:    51.000    33.750    21.750
+    Box size  :       136        90        58
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+Scanning at: -0.36 -0.792 -0.6
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -75.59   129    3.98    -0.59     0.808     21.13 
+    2   -33.86    60    2.79    -0.56     0.717     11.08 
+Scanning at: -0.315 -0.693 -0.525
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -103.19   179    4.35    -0.58     0.812     27.12 
+    2   -43.99    87    3.06    -0.51     0.820     19.11 
+    3   -34.99    58    2.33    -0.60     0.801     15.95 
+    4   -39.59    72    2.87    -0.55     0.698     12.24 
+    5   -31.48    59    2.80    -0.53     0.663      9.28 
+Scanning at: -0.27 -0.594 -0.45
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -183.42   338    6.45    -0.54     0.762     30.42 
+    2   -86.77   163    4.09    -0.53     0.840     28.12 
+    3  -152.04   318    7.24    -0.48     0.693     21.07 
+    4   -53.89    91    2.89    -0.59     0.766     18.45 
+    5   -44.22    84    3.05    -0.53     0.642     11.35 
+    6   -35.60    76    3.20    -0.47     0.576      7.88 
+    7   -24.11    55    2.36    -0.44     0.538      6.76 
+Scanning at: -0.225 -0.495 -0.375
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -927.97  1954   11.50    -0.47     0.673     77.03 
+    2   -55.97   113    3.28    -0.50     0.595     12.20 
+    3   -49.86   112    3.69    -0.45     0.505      7.76 
+    found 8 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -218.04   501    7.41     -0.44      0.83      46.58
+        2   -203.46   531    7.68     -0.38      0.77      41.49
+        3   -108.81   227    4.31     -0.48      0.88      40.42
+        4    -69.61   138    3.93     -0.50      0.88      26.93
+        5    -72.46   251    4.71     -0.29      0.71      26.54
+        6    -64.02   155    4.01     -0.41      0.78      23.53
+        7    -54.61   166    4.37     -0.33      0.75      21.42
+        8    -33.55    89    3.28     -0.38      0.75      15.34
+    merging clusters ...
+done. got 293 fill Points, in 11.95 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(5.591 -32.053 -38.041) size=(51.000 33.750 21.750) dims=(136 90 58) ...
+    270 points inside the box
+
+    maps computed in 4.84 (sec)
+Adding gradient to maps ...
+processing maps ... done 151.983710051
+writing maps ... done 12.90417099
+done adding gradient to maps 166.24 (sec)
+making target file 3q6s_F.trg ...done.
+    done. 182.60 (sec)
+
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 6kvm_C_pepH.pdbqt -asv 1.1 -o 6kvm_C
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
+Date Mon Apr 21 00:14:37 2025
+
+loading receptor: 3s98_clean_H.pdbqt
+loading ligand: 6kvm_C_pepH.pdbqt
+
+set box using ligand
+    Box center:    19.012   -31.553   -29.072
+    Box length:    50.250    21.000    29.250
+    Box size  :       134        56        78
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+Scanning at: -0.36 -0.792 -0.6
+0 #: 0
+Scanning at: -0.315 -0.693 -0.525
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -48.98    90    3.35    -0.54     0.725     14.11 
+    2   -24.00    50    2.21    -0.48     0.612      8.48 
+Scanning at: -0.27 -0.594 -0.45
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -83.31   163    4.02    -0.51     0.707     20.29 
+    2   -39.02    64    2.44    -0.61     0.809     17.18 
+    3   -37.42    83    2.73    -0.45     0.597     10.85 
+Scanning at: -0.225 -0.495 -0.375
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -338.04   731    7.62    -0.46     0.666     42.53 
+    2   -21.81    52    2.40    -0.42     0.528      6.06 
+    3   -21.88    51    2.05    -0.43     0.458      5.24 
+    found 5 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -112.23   278    4.48     -0.40      0.80      39.30
+        2    -55.56   170    3.66     -0.33      0.76      26.80
+        3    -46.98    87    3.20     -0.54      0.91      22.54
+        4    -35.08   125    3.34     -0.28      0.77      22.21
+        5    -30.07    92    2.89     -0.33      0.72      16.64
+    merging clusters ...
+done. got 99 fill Points, in 6.40 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(19.012 -31.553 -29.072) size=(50.250 21.000 29.250) dims=(134 56 78) ...
+    95 points inside the box
+
+    maps computed in 3.95 (sec)
+Adding gradient to maps ...
+processing maps ... done 167.768736124
+writing maps ... done 9.44750189781
+done adding gradient to maps 178.40 (sec)
+making target file 6kvm_C.trg ...done.
+    done. 186.28 (sec)
+
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 3lw5_J_pepH.pdbqt -asv 1.1 -o 3lw5_J
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
+Date Mon Apr 21 00:17:52 2025
+
+loading receptor: 3s98_clean_H.pdbqt
+loading ligand: 3lw5_J_pepH.pdbqt
+
+set box using ligand
+    Box center:     1.482   -33.975   -41.737
+    Box length:    41.250    50.250    40.500
+    Box size  :       110       134       108
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+Scanning at: -0.36 -0.792 -0.6
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -67.55   115    3.79    -0.59     0.818     20.32 
+Scanning at: -0.315 -0.693 -0.525
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -104.50   184    4.49    -0.57     0.791     25.64 
+    2   -40.39    77    2.62    -0.52     0.752     16.62 
+    3   -28.68    55    2.28    -0.52     0.807     15.73 
+    4   -47.25    84    3.21    -0.56     0.698     12.75 
+    5   -40.02    83    3.30    -0.48     0.594      8.89 
+    6   -25.57    50    2.54    -0.51     0.619      7.55 
+Scanning at: -0.27 -0.594 -0.45
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -182.79   318    5.40    -0.57     0.809     38.54 
+    2  -154.16   303    5.15    -0.51     0.730     31.41 
+    3  -108.28   229    5.40    -0.47     0.680     19.62 
+    4   -89.87   179    4.93    -0.50     0.729     19.32 
+    5   -90.67   174    5.00    -0.52     0.702     17.16 
+    6   -72.00   152    4.17    -0.47     0.569     11.78 
+    7   -29.07    54    2.17    -0.54     0.660     10.84 
+    8   -41.91    83    2.97    -0.50     0.604     10.18 
+    9   -42.42    84    2.94    -0.51     0.590      9.94 
+   10   -43.06    94    3.35    -0.46     0.580      9.43 
+Scanning at: -0.225 -0.495 -0.375
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1 -1343.17  2847   14.14    -0.47     0.653     85.92 
+    2  -108.15   233    4.92    -0.46     0.572     15.49 
+    3   -86.15   189    4.25    -0.46     0.579     14.90 
+    4   -34.79    64    2.36    -0.54     0.677     12.42 
+    5   -66.83   151    3.86    -0.44     0.515     10.38 
+    6   -26.57    55    2.33    -0.48     0.615      8.95 
+    7   -30.42    76    2.94    -0.40     0.412      4.40 
+    found 14 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -214.32   441    6.19     -0.49      0.86      52.92
+        2   -199.83   465    6.03     -0.43      0.81      50.76
+        3   -134.74   439    5.68     -0.31      0.73      40.74
+        4   -140.59   380    6.10     -0.37      0.78      38.22
+        5   -108.19   344    5.06     -0.31      0.73      36.72
+        6   -123.93   295    5.48     -0.42      0.82      36.45
+        7   -115.59   287    5.63     -0.40      0.81      33.30
+        8    -88.59   295    5.03     -0.30      0.74      31.94
+        9   -102.55   301    5.24     -0.34      0.73      30.76
+       10    -45.00   119    3.09     -0.38      0.80      24.73
+       11    -60.44   166    4.03     -0.36      0.77      24.70
+       12    -47.59   189    3.98     -0.25      0.70      23.38
+       13    -41.54   109    3.01     -0.38      0.80      22.97
+       14    -37.43   113    3.06     -0.33      0.76      21.44
+    merging clusters ...
+done. got 544 fill Points, in 19.17 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(1.482 -33.975 -41.737) size=(41.250 50.250 40.500) dims=(110 134 108) ...
+    524 points inside the box
+
+    maps computed in 10.75 (sec)
+Adding gradient to maps ...
+processing maps ... done 376.145982981
+writing maps ... done 26.551017046
+done adding gradient to maps 405.74 (sec)
+making target file 3lw5_J.trg ...done.
+    done. 428.19 (sec)
+
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 4xk8_J_pepH.pdbqt -asv 1.1 -o 4xk8_J
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
+Date Mon Apr 21 00:25:21 2025
+
+loading receptor: 3s98_clean_H.pdbqt
+loading ligand: 4xk8_J_pepH.pdbqt
+
+set box using ligand
+    Box center:    -0.901   -19.537   -29.729
+    Box length:    29.250    59.250    36.750
+    Box size  :        78       158        98
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+Scanning at: -0.36 -0.792 -0.6
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -69.55   117    4.13    -0.59     0.833     19.63 
+Scanning at: -0.315 -0.693 -0.525
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -101.40   174    4.41    -0.58     0.813     26.10 
+    2   -53.25   100    3.62    -0.53     0.719     14.29 
+    3   -30.12    58    2.38    -0.52     0.703     12.04 
+    4   -27.72    60    2.44    -0.46     0.637      9.96 
+Scanning at: -0.27 -0.594 -0.45
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -92.74   173    4.12    -0.54     0.822     28.42 
+    2  -162.02   307    5.78    -0.53     0.729     28.24 
+    3   -47.05    77    2.56    -0.61     0.832     20.84 
+    4   -81.33   168    4.11    -0.48     0.704     20.28 
+    5  -103.58   218    5.18    -0.48     0.683     19.64 
+    6   -40.35    60    2.60    -0.67     0.831     15.90 
+    7   -67.67   132    4.20    -0.51     0.682     14.63 
+    8   -30.07    62    2.62    -0.49     0.641      9.74 
+    9   -43.10    84    3.00    -0.51     0.565      8.93 
+   10   -37.01    72    2.86    -0.51     0.583      8.54 
+Scanning at: -0.225 -0.495 -0.375
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1 -1074.40  2291   14.34    -0.47     0.665     70.58 
+    2   -49.74    75    2.68    -0.66     0.844     19.93 
+    3  -120.13   272    6.38    -0.44     0.548     12.79 
+    4   -36.73    65    2.48    -0.57     0.667     11.66 
+    5   -41.22    83    2.55    -0.50     0.572     10.63 
+    6   -28.00    55    2.06    -0.51     0.594      9.42 
+    7   -25.01    66    2.45    -0.38     0.535      7.74 
+    8   -25.55    55    2.58    -0.46     0.515      5.67 
+    9   -31.60    73    3.12    -0.43     0.471      5.18 
+   10   -35.65    88    3.19    -0.41     0.422      4.91 
+    found 16 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -199.79   474    7.11     -0.42      0.82      44.48
+        2   -118.47   242    4.36     -0.49      0.87      41.84
+        3   -117.08   296    4.62     -0.40      0.78      38.94
+        4   -157.48   498    6.92     -0.32      0.72      37.72
+        5   -134.52   364    5.81     -0.37      0.78      37.68
+        6    -89.20   230    5.02     -0.39      0.79      28.88
+        7    -58.34   108    3.37     -0.54      0.90      26.17
+        8    -57.61   100    3.42     -0.58      0.92      24.80
+        9    -46.80   120    3.22     -0.39      0.81      24.53
+       10    -55.16   213    4.15     -0.26      0.69      24.34
+       11    -40.26   112    3.05     -0.36      0.79      23.13
+       12    -47.94   120    3.07     -0.40      0.76      22.74
+       13    -49.81   151    4.05     -0.33      0.77      22.30
+       14    -44.31   175    4.20     -0.25      0.73      21.99
+       15    -34.40   121    3.20     -0.28      0.74      20.94
+       16    -38.85   133    3.45     -0.29      0.74      20.86
+    merging clusters ...
+done. got 525 fill Points, in 15.80 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(-0.901 -19.537 -29.729) size=(29.250 59.250 36.750) dims=(78 158 98) ...
+    498 points inside the box
+
+    maps computed in 8.18 (sec)
+Adding gradient to maps ...
+processing maps ... done 268.496713161
+writing maps ... done 19.6330358982
+done adding gradient to maps 290.48 (sec)
+making target file 4xk8_J.trg ...done.
+    done. 308.64 (sec)
+
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 5ua4_B_pepH.pdbqt -asv 1.1 -o 5ua4_B
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
+Date Mon Apr 21 00:30:48 2025
+
+loading receptor: 3s98_clean_H.pdbqt
+loading ligand: 5ua4_B_pepH.pdbqt
+
+set box using ligand
+    Box center:    -9.894   -26.220   -29.159
+    Box length:    36.750    47.250    40.500
+    Box size  :        98       126       108
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+Scanning at: -0.36 -0.792 -0.6
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -68.33   121    3.95    -0.56     0.808     19.98 
+    2   -36.14    64    2.98    -0.56     0.749     12.04 
+Scanning at: -0.315 -0.693 -0.525
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1   -98.81   171    4.36    -0.58     0.810     25.70 
+    2   -26.89    54    2.13    -0.50     0.842     17.99 
+    3   -41.30    83    2.78    -0.50     0.725     15.73 
+    4   -50.95    94    3.34    -0.54     0.744     15.59 
+    5   -35.32    58    2.47    -0.61     0.800     15.06 
+    6   -54.12   100    3.86    -0.54     0.706     12.92 
+    7   -30.57    53    2.34    -0.58     0.625      8.84 
+    8   -24.62    52    2.23    -0.47     0.605      8.53 
+Scanning at: -0.27 -0.594 -0.45
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1  -184.36   352    5.38    -0.52     0.776     39.44 
+    2  -170.30   311    5.55    -0.55     0.752     31.67 
+    3   -64.43   127    3.22    -0.51     0.719     20.39 
+    4   -93.04   173    4.72    -0.54     0.727     19.35 
+    5   -55.75   101    3.11    -0.55     0.726     17.10 
+    6   -41.57    94    2.90    -0.44     0.598     11.60 
+    7   -57.84   125    3.83    -0.46     0.593     11.48 
+    8   -41.78    78    2.83    -0.54     0.565      8.82 
+    9   -37.01    71    2.72    -0.52     0.581      8.80 
+   10   -23.96    50    2.46    -0.48     0.612      7.60 
+Scanning at: -0.225 -0.495 -0.375
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |
+number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
+------+-------+------+--------+--------+----------+--------|
+    1 -1152.87  2442   12.98    -0.47     0.656     80.93 
+    2   -58.51   107    3.72    -0.55     0.749     16.17 
+    3   -38.29    85    2.91    -0.45     0.670     13.08 
+    4   -34.25    60    2.31    -0.57     0.681     12.06 
+    5  -152.03   328    8.03    -0.46     0.542     12.01 
+    6   -39.99    89    2.83    -0.45     0.605     11.50 
+    7   -40.13    94    2.72    -0.43     0.558     10.76 
+    8   -97.84   228    5.09    -0.43     0.477     10.20 
+    9   -38.91    93    3.05    -0.42     0.548      9.15 
+   10   -78.65   173    5.52    -0.45     0.525      8.65 
+    found 16 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -233.06   520    6.23     -0.45      0.83      56.82
+        2   -200.31   450    6.57     -0.45      0.84      48.81
+        3    -84.62   207    3.85     -0.41      0.81      35.59
+        4   -116.64   280    5.38     -0.42      0.81      34.56
+        5   -135.60   470    6.25     -0.29      0.68      34.39
+        6    -82.66   250    4.62     -0.33      0.76      30.99
+        7   -108.03   361    6.20     -0.30      0.72      29.79
+        8    -56.14   183    3.65     -0.31      0.76      29.03
+        9    -55.65   174    3.70     -0.32      0.77      28.20
+       10    -72.79   172    4.44     -0.42      0.85      28.20
+       11    -73.90   158    4.15     -0.47      0.85      27.79
+       12    -63.46   192    3.93     -0.33      0.75      27.32
+       13    -52.39   151    3.58     -0.35      0.80      27.21
+       14    -51.70   179    3.74     -0.29      0.75      26.85
+       15    -44.13   114    3.06     -0.39      0.81      24.28
+       16    -53.36   152    3.95     -0.35      0.76      22.27
+    merging clusters ...
+done. got 583 fill Points, in 19.57 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(-9.894 -26.220 -29.159) size=(36.750 47.250 40.500) dims=(98 126 108) ...
+    579 points inside the box
+
+    maps computed in 9.49 (sec)
+Adding gradient to maps ...
+processing maps ... done 284.457253933
+writing maps ... done 22.7644970417
+done adding gradient to maps 309.91 (sec)
+making target file 5ua4_B.trg ...done.
+    done. 331.29 (sec)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
