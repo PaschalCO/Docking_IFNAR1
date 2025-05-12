@@ -1,0 +1,7 @@
+# Descargar el instalador desde la pagina oficial curl
+curl -O https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.16.0/ncbi-blast-2.16.0+-aarch64.dmg
+
+# Lanzar y seguir los pasos del instalador
+
+# Verificar instalación:
+blastp -version

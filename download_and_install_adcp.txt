@@ -1,7 +1,0 @@
-# Con la carpeta ADFRsuite_x86_64Darwin_1.0.tar.gz para entorno Mac OSX descargada de la página https://ccsb.scripps.edu/adcp/downloads/
-
-tar zxvf ADFRsuite_x86_64Darwin_1.0.tar.gz # descomprimir el archivo descargado
-
-cd ADFRsuite_x86_64Darwin_1.0 # entrar en la carpeta descomprimida
-
-./install.sh -d exec -c 0 # instalar ADFR1,0 en la carpeta exec utilizando el compilador .pyc de python

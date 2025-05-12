@@ -1,0 +1,7 @@
+# Con Homebrew instalado en el entorno MacOS
+
+# Instalar Python 2 utilizando el siguiente comando:
+brew install python@2
+
+# Verificar instalación:
+ python --version
