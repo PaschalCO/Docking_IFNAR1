@@ -290,7 +290,7 @@ done adding gradient to maps 536.82 (sec)
 making target file 3bu6_B.trg ...done.
     done. 570.68 (sec)
 
-Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 3q6s_F_pepH.pdbqt -asv 1.1 -o 3q6s_F
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 1ce0_A_pepH.pdbqt -asv 1.1 -o 1ce0_A
 #################################################################
 # If you used AGFR in your work, please cite:                   #
 #                                                               #
@@ -312,15 +312,15 @@ Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/
 #################################################################
 
 Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
-Date Mon Apr 21 00:11:20 2025
+Date Thu May 15 15:44:30 2025
 
 loading receptor: 3s98_clean_H.pdbqt
-loading ligand: 3q6s_F_pepH.pdbqt
+loading ligand: 1ce0_A_pepH.pdbqt
 
 set box using ligand
-    Box center:     5.591   -32.053   -38.041
-    Box length:    51.000    33.750    21.750
-    Box size  :       136        90        58
+    Box center:   -10.657   -32.381   -33.195
+    Box length:    35.250    57.750    24.000
+    Box size  :        94       154        64
     padding   :     4.000
     spacing   :     0.375
 
@@ -329,63 +329,67 @@ Scanning at: -0.36 -0.792 -0.6
 clust.| Energy| # of |Rad. of | energy |   bns    |score   |
 number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
 ------+-------+------+--------+--------+----------+--------|
-    1   -75.59   129    3.98    -0.59     0.808     21.13 
-    2   -33.86    60    2.79    -0.56     0.717     11.08 
+    1   -72.80   122    4.24    -0.60     0.837     20.17
+    2   -33.08    62    2.82    -0.53     0.753     12.47
 Scanning at: -0.315 -0.693 -0.525
 clust.| Energy| # of |Rad. of | energy |   bns    |score   |
 number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
 ------+-------+------+--------+--------+----------+--------|
-    1  -103.19   179    4.35    -0.58     0.812     27.12 
-    2   -43.99    87    3.06    -0.51     0.820     19.11 
-    3   -34.99    58    2.33    -0.60     0.801     15.95 
-    4   -39.59    72    2.87    -0.55     0.698     12.24 
-    5   -31.48    59    2.80    -0.53     0.663      9.28 
+    1   -99.82   170    4.40    -0.59     0.807     25.18
+    2   -42.21    85    3.09    -0.50     0.816     18.32
+    3   -33.16    50    2.13    -0.66     0.864     17.51
+    4   -53.21    98    3.48    -0.54     0.749     15.81
+    5   -37.01    69    2.68    -0.54     0.743     14.24
 Scanning at: -0.27 -0.594 -0.45
 clust.| Energy| # of |Rad. of | energy |   bns    |score   |
 number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
 ------+-------+------+--------+--------+----------+--------|
-    1  -183.42   338    6.45    -0.54     0.762     30.42 
-    2   -86.77   163    4.09    -0.53     0.840     28.12 
-    3  -152.04   318    7.24    -0.48     0.693     21.07 
-    4   -53.89    91    2.89    -0.59     0.766     18.45 
-    5   -44.22    84    3.05    -0.53     0.642     11.35 
-    6   -35.60    76    3.20    -0.47     0.576      7.88 
-    7   -24.11    55    2.36    -0.44     0.538      6.76 
+    1  -179.93   345    5.34    -0.52     0.763     37.58
+    2  -148.88   268    4.89    -0.56     0.805     35.50
+    3  -148.21   272    6.12    -0.54     0.718     22.91
+    4  -110.04   232    5.39    -0.47     0.687     20.28
+    5   -29.64    62    2.90    -0.48     0.643      8.83
+    6   -25.53    61    2.33    -0.42     0.495      6.40
 Scanning at: -0.225 -0.495 -0.375
 clust.| Energy| # of |Rad. of | energy |   bns    |score   |
 number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
 ------+-------+------+--------+--------+----------+--------|
-    1  -927.97  1954   11.50    -0.47     0.673     77.03 
-    2   -55.97   113    3.28    -0.50     0.595     12.20 
-    3   -49.86   112    3.69    -0.45     0.505      7.76 
-    found 8 pocket(s)
+    1 -1008.61  2108   12.40    -0.48     0.674     77.21
+    2  -132.03   289    5.85    -0.46     0.563     15.69
+    3   -36.53    84    2.70    -0.43     0.553      9.53
+    4   -60.77   142    4.15    -0.43     0.504      8.68
+    5   -31.72    72    2.96    -0.44     0.503      6.17
+    6   -23.15    52    2.39    -0.45     0.496      5.35
+    found 10 pocket(s)
 
-    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    pocket|  energy | # of |Rad. of | energy |   bns    | score
     number|         |points|gyration|per vol.|buriedness|v*b^2/rg
     ------+---------+------+--------+--------+----------+---------
-        1   -218.04   501    7.41     -0.44      0.83      46.58
-        2   -203.46   531    7.68     -0.38      0.77      41.49
-        3   -108.81   227    4.31     -0.48      0.88      40.42
-        4    -69.61   138    3.93     -0.50      0.88      26.93
-        5    -72.46   251    4.71     -0.29      0.71      26.54
-        6    -64.02   155    4.01     -0.41      0.78      23.53
-        7    -54.61   166    4.37     -0.33      0.75      21.42
-        8    -33.55    89    3.28     -0.38      0.75      15.34
+        1   -228.04   517    6.14     -0.44      0.82      56.23
+        2   -171.29   366    5.64     -0.47      0.86      48.50
+        3   -171.39   548    6.71     -0.31      0.72      42.77
+        4   -184.16   421    7.07     -0.44      0.82      40.49
+        5   -141.16   378    5.97     -0.37      0.78      38.70
+        6    -84.83   284    4.99     -0.30      0.71      28.59
+        7    -50.94   173    3.61     -0.29      0.75      27.18
+        8    -46.38   165    3.72     -0.28      0.73      23.69
+        9    -43.28   146    3.49     -0.30      0.73      22.33
+       10    -34.80   132    3.49     -0.26      0.74      20.49
     merging clusters ...
-done. got 293 fill Points, in 11.95 (sec)
+done. got 481 fill Points, in 15.37 (sec)
 
 setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
 
-computing maps for center=(5.591 -32.053 -38.041) size=(51.000 33.750 21.750) dims=(136 90 58) ...
-    270 points inside the box
+computing maps for center=(-10.657 -32.381 -33.195) size=(35.250 57.750 24.000) dims=(94 154 64) ...
+    465 points inside the box
 
-    maps computed in 4.84 (sec)
+    maps computed in 6.80 (sec)
 Adding gradient to maps ...
-processing maps ... done 151.983710051
-writing maps ... done 12.90417099
-done adding gradient to maps 166.24 (sec)
-making target file 3q6s_F.trg ...done.
-    done. 182.60 (sec)
+processing maps ... done 209.636977911
+writing maps ... done 16.5355420113
+done adding gradient to maps 228.14 (sec)
+making target file 1ce0_A.trg ...done.
+    done. 242.48 (sec)
 
 Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 6kvm_C_pepH.pdbqt -asv 1.1 -o 6kvm_C
 #################################################################
@@ -470,7 +474,7 @@ done adding gradient to maps 178.40 (sec)
 making target file 6kvm_C.trg ...done.
     done. 186.28 (sec)
 
-Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 3lw5_J_pepH.pdbqt -asv 1.1 -o 3lw5_J
+Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 3oak_D_pepH.pdbqt -asv 1.1 -o 3oak_D
 #################################################################
 # If you used AGFR in your work, please cite:                   #
 #                                                               #
@@ -492,15 +496,15 @@ Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/
 #################################################################
 
 Computing grids on Paschals-MacBook-Pro.local a Darwin-23.6.0-x86_64-i386-64bit computer
-Date Mon Apr 21 00:17:52 2025
+Date Thu May 15 15:40:01 2025
 
 loading receptor: 3s98_clean_H.pdbqt
-loading ligand: 3lw5_J_pepH.pdbqt
+loading ligand: 3oak_D_pepH.pdbqt
 
 set box using ligand
-    Box center:     1.482   -33.975   -41.737
-    Box length:    41.250    50.250    40.500
-    Box size  :       110       134       108
+    Box center:    -3.909   -27.402   -37.968
+    Box length:    53.250    40.500    22.500
+    Box size  :       142       108        60
     padding   :     4.000
     spacing   :     0.375
 
@@ -509,76 +513,74 @@ Scanning at: -0.36 -0.792 -0.6
 clust.| Energy| # of |Rad. of | energy |   bns    |score   |
 number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
 ------+-------+------+--------+--------+----------+--------|
-    1   -67.55   115    3.79    -0.59     0.818     20.32 
+    1   -62.77   104    3.98    -0.60     0.837     18.31
 Scanning at: -0.315 -0.693 -0.525
 clust.| Energy| # of |Rad. of | energy |   bns    |score   |
 number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
 ------+-------+------+--------+--------+----------+--------|
-    1  -104.50   184    4.49    -0.57     0.791     25.64 
-    2   -40.39    77    2.62    -0.52     0.752     16.62 
-    3   -28.68    55    2.28    -0.52     0.807     15.73 
-    4   -47.25    84    3.21    -0.56     0.698     12.75 
-    5   -40.02    83    3.30    -0.48     0.594      8.89 
-    6   -25.57    50    2.54    -0.51     0.619      7.55 
+    1   -92.77   160    4.45    -0.58     0.800     23.03
+    2   -32.24    51    2.09    -0.63     0.871     18.54
+    3   -55.15   103    3.66    -0.54     0.729     14.98
+    4   -24.34    51    2.33    -0.48     0.627      8.60
 Scanning at: -0.27 -0.594 -0.45
 clust.| Energy| # of |Rad. of | energy |   bns    |score   |
 number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
 ------+-------+------+--------+--------+----------+--------|
-    1  -182.79   318    5.40    -0.57     0.809     38.54 
-    2  -154.16   303    5.15    -0.51     0.730     31.41 
-    3  -108.28   229    5.40    -0.47     0.680     19.62 
-    4   -89.87   179    4.93    -0.50     0.729     19.32 
-    5   -90.67   174    5.00    -0.52     0.702     17.16 
-    6   -72.00   152    4.17    -0.47     0.569     11.78 
-    7   -29.07    54    2.17    -0.54     0.660     10.84 
-    8   -41.91    83    2.97    -0.50     0.604     10.18 
-    9   -42.42    84    2.94    -0.51     0.590      9.94 
-   10   -43.06    94    3.35    -0.46     0.580      9.43 
+    1  -185.02   352    5.37    -0.53     0.760     37.89
+    2  -183.77   333    5.77    -0.55     0.762     33.45
+    3   -58.83   105    3.09    -0.56     0.753     19.30
+    4   -60.58   126    3.78    -0.48     0.610     12.40
+    5   -41.49    92    2.89    -0.45     0.596     11.29
+    6   -30.60    55    2.13    -0.56     0.642     10.63
+    7   -38.51    74    2.70    -0.52     0.576      9.10
+    8   -26.46    61    2.38    -0.43     0.478      5.86
 Scanning at: -0.225 -0.495 -0.375
 clust.| Energy| # of |Rad. of | energy |   bns    |score   |
 number|       |points|gyration|per vol.|buriedness|v*b^2/rg|
 ------+-------+------+--------+--------+----------+--------|
-    1 -1343.17  2847   14.14    -0.47     0.653     85.92 
-    2  -108.15   233    4.92    -0.46     0.572     15.49 
-    3   -86.15   189    4.25    -0.46     0.579     14.90 
-    4   -34.79    64    2.36    -0.54     0.677     12.42 
-    5   -66.83   151    3.86    -0.44     0.515     10.38 
-    6   -26.57    55    2.33    -0.48     0.615      8.95 
-    7   -30.42    76    2.94    -0.40     0.412      4.40 
+    1  -857.28  1788   11.71    -0.48     0.681     70.89
+    2  -120.99   255    5.59    -0.47     0.572     14.95
+    3   -58.02   116    3.28    -0.50     0.595     12.53
+    4   -32.66    58    2.39    -0.56     0.665     10.73
+    5   -38.99    88    2.74    -0.44     0.562     10.14
+    6   -37.96    85    3.24    -0.45     0.553      8.02
+    7   -30.85    73    2.85    -0.42     0.514      6.77
+    8   -35.02    79    3.51    -0.44     0.484      5.29
+    9   -41.63    99    3.70    -0.42     0.425      4.84
     found 14 pocket(s)
 
-    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    pocket|  energy | # of |Rad. of | energy |   bns    | score
     number|         |points|gyration|per vol.|buriedness|v*b^2/rg
     ------+---------+------+--------+--------+----------+---------
-        1   -214.32   441    6.19     -0.49      0.86      52.92
-        2   -199.83   465    6.03     -0.43      0.81      50.76
-        3   -134.74   439    5.68     -0.31      0.73      40.74
-        4   -140.59   380    6.10     -0.37      0.78      38.22
-        5   -108.19   344    5.06     -0.31      0.73      36.72
-        6   -123.93   295    5.48     -0.42      0.82      36.45
-        7   -115.59   287    5.63     -0.40      0.81      33.30
-        8    -88.59   295    5.03     -0.30      0.74      31.94
-        9   -102.55   301    5.24     -0.34      0.73      30.76
-       10    -45.00   119    3.09     -0.38      0.80      24.73
-       11    -60.44   166    4.03     -0.36      0.77      24.70
-       12    -47.59   189    3.98     -0.25      0.70      23.38
-       13    -41.54   109    3.01     -0.38      0.80      22.97
-       14    -37.43   113    3.06     -0.33      0.76      21.44
+        1   -230.34   516    6.13     -0.45      0.82      57.17
+        2   -218.75   485    6.74     -0.45      0.85      51.40
+        3   -161.14   496    6.45     -0.32      0.73      40.81
+        4    -78.04   164    4.16     -0.48      0.86      29.21
+        5    -54.88   177    3.68     -0.31      0.76      27.72
+        6    -61.57   186    3.90     -0.33      0.75      27.00
+        7    -68.50   180    4.10     -0.38      0.78      26.46
+        8    -59.91   226    4.48     -0.27      0.69      23.96
+        9    -54.69   175    4.07     -0.31      0.74      23.44
+       10    -41.90   111    3.11     -0.38      0.81      23.36
+       11    -42.55   152    3.49     -0.28      0.72      22.86
+       12    -54.31   152    3.96     -0.36      0.77      22.84
+       13    -43.46   141    3.49     -0.31      0.75      22.47
+       14    -49.71   183    4.51     -0.27      0.74      22.08
     merging clusters ...
-done. got 544 fill Points, in 19.17 (sec)
+done. got 475 fill Points, in 13.17 (sec)
 
 setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
 
-computing maps for center=(1.482 -33.975 -41.737) size=(41.250 50.250 40.500) dims=(110 134 108) ...
-    524 points inside the box
+computing maps for center=(-3.909 -27.402 -37.968) size=(53.250 40.500 22.500) dims=(142 108 60) ...
+    473 points inside the box
 
-    maps computed in 10.75 (sec)
+    maps computed in 6.86 (sec)
 Adding gradient to maps ...
-processing maps ... done 376.145982981
-writing maps ... done 26.551017046
-done adding gradient to maps 405.74 (sec)
-making target file 3lw5_J.trg ...done.
-    done. 428.19 (sec)
+processing maps ... done 216.841937065
+writing maps ... done 19.0467061996
+done adding gradient to maps 237.76 (sec)
+making target file 3oak_D.trg ...done.
+    done. 253.44 (sec)
 
 Ejecutando: python /Users/paschalogbogu/docking/ADFRsuite_x86_64Darwin_1.0/exec/CCSBpckgs/ADFR/bin/runAGFR.py -r 3s98_clean_H.pdbqt -l 4xk8_J_pepH.pdbqt -asv 1.1 -o 4xk8_J
 #################################################################
