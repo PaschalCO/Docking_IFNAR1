@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Ruta de la carpeta que contiene los peptidos seleccionados
-input_dir = "positioned_peptides"
+input_dir = "../positioned_peptides"
 output_dir = "reduced_peptides"
 
 # Asegurar que el directorio de salida existe

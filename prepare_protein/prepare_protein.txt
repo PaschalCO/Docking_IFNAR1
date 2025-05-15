@@ -6,7 +6,7 @@ remove organic # Eliminar compuesto orgánico
 
 save 3s98_clean.pdb # Guardar estructura proteica limpia
 
-select SD3, chain A and resi 199-310 # Seleccionar el subdominio 3 (residuos 199-310 aprox.)
+select SD3, chain A and resi 204-308 # Seleccionar el subdominio 3 (residuos 204-308 aprox.)
 
 color orange, SD3 # Colorear el subdominio 3 de color naranja
 
