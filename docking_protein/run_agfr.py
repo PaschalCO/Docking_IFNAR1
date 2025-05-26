@@ -33,8 +33,8 @@ for peptide_folder in os.listdir(base_dir):
                     command = [
                         "python", 
                         run_agfr_path,
-                        "-r", receptor_file,  # Nombre del receptor
-                        "-l", pdbqt_file,   # Nombre del archivo del ligando
+                        "-r", receptor_file,
+                        "-l", pdbqt_file,
                         "-asv", "1.1",
                         "-o", peptide_folder
                     ]
